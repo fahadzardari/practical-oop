@@ -76,8 +76,7 @@ class Country {
     }
 
 }
-
-public class Demo {
+ class Demo {
     public static void main(String[] args) {
         String[] pakistan_city_names = { "Islamabad", "Karachi", "Hyderabad" };
         long[] pakistan_city_population = { 4900990, 132132134, 122123 };

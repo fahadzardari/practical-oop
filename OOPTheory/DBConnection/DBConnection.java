@@ -14,9 +14,11 @@ class DBConnection extends Thread {
       );
       //if you have mysql-server installed
       System.out.println("Connected");
+      Thread.sleep(5000);
+
       Statement st = con.createStatement();
       ResultSet result = st.executeQuery("select * from test");
-      DBConnection.start
+      
 
       while (result.next()) {
         System.out.println(
